@@ -1,0 +1,20 @@
+{
+  "name": "innovamos/listnow",
+  "description": "Sistema conversor de listas de youtube a mp3 de forma sencilla",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Javier Misat",
+      "email": "rjmisal@misena.edu.co"
+    }
+  ],
+  "require": {
+    "norkunas/youtube-dl-php": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Innovamos\\": "src/"
+    }
+  }
+}
